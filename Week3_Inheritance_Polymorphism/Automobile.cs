@@ -17,9 +17,15 @@ namespace Week3_Inheritance_Polymorphism
             get { return this.numberOfwheels = numberOfwheels; }
         }
 
-        public Automobile (int numberofWheels, float wheelSize, int numberOfDoors):base(4, 2000, "Blue", 65.0d)
+        public Automobile (int numberofWheels, float wheelSize, int numberOfDoors, int seats, int carryingCapacity, string color, double movementSpeed)//:base(4, 2000, "Blue", 65.0d)
         {
-
+            this.numberOfwheels = numberOfwheels;
+            this.wheelSize = wheelSize;
+            this.numberOfDoors = numberOfDoors;
+            this.seats = seats;
+            this.carryingCapacity = carryingCapacity;
+            this.color = color;
+            this.movementSpeed = movementSpeed;
         }
 
 
