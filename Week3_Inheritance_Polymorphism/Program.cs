@@ -21,7 +21,10 @@ namespace Week3_Inheritance_Polymorphism
             herbie.Move();
             Console.WriteLine("Automobile Distance Traveled: " + herbie.DistancedTraveled);
 
-
+            Boat boaty = new Boat(2, 500, "Red", 88.0d, .9d);
+            boaty.Move();
+            boaty.Move();
+            Console.WriteLine("Boat Distance Traveled: " + boaty.DistancedTraveled);
 
 
         }

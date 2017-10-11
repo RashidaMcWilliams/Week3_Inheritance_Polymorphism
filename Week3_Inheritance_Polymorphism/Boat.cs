@@ -19,7 +19,10 @@ namespace Week3_Inheritance_Polymorphism
             this.waterDrag = waterDrag;
         }
 
-
+        public override void Move()
+        {
+            distanceTraveled += movementSpeed * waterDrag;
+        }
 
     }
 }
