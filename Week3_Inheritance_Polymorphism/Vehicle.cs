@@ -51,6 +51,12 @@ namespace Week3_Inheritance_Polymorphism
             this.distanceTraveled = 0.0d;
         }
 
+        public void Move()
+        {
+            distanceTraveled += movementSpeed;
+            //distanceTraveled = distanceTraveled + movementSpeed;
+        }
+
 
 
     }

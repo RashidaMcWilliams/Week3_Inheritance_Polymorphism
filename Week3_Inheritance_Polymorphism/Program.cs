@@ -10,6 +10,13 @@ namespace Week3_Inheritance_Polymorphism
     {
         static void Main(string[] args)
         {
+            Vehicle baseVehicle = new Vehicle(4, 2000, "Green", 55.0d);
+
+            baseVehicle.Move();
+            Console.WriteLine(baseVehicle.DistancedTraveled);
         }
+
+
+
     }
 }
