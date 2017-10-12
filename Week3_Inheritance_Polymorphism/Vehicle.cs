@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Week3_Inheritance_Polymorphism
 {
-    class Vehicle
+    abstract class Vehicle
     {
         protected int seats;
         protected int carryingCapacity;
@@ -57,7 +57,7 @@ namespace Week3_Inheritance_Polymorphism
             //distanceTraveled = distanceTraveled + movementSpeed;
         }
 
-
+        public abstract void StartEngine(int keycode);
 
     }
 }
