@@ -57,7 +57,12 @@ namespace Week3_Inheritance_Polymorphism
             //distanceTraveled = distanceTraveled + movementSpeed;
         }
 
-        public abstract void StartEngine(int keycode);
+        //public abstract void StartEngine(int keycode);
+
+        public virtual string GetDistancedTraveled()
+        {
+            return "Distance Traveled: " + distanceTraveled + "\n";
+        }
 
     }
 }
